@@ -171,6 +171,7 @@ class SignUpViewController: BaseViewController {
             guard let `self` = self else { return }
             self.userImageView.image = image
             self.iconImage = image
+            self.pencilImageView.image = UIImage.coloredImage(imageName: "pencil", color: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
         }
     }
     
