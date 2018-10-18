@@ -8,6 +8,8 @@ target 'Test-App' do
   # Pods for Test-App
   
   pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
   pod 'SVProgressHUD'
   pod 'Alamofire'
   pod 'SDWebImage'
